@@ -1,0 +1,86 @@
+.tweet_container {
+  background-color: var(--main-color);
+  height: 170px;
+  padding: 10px;
+  border-radius: 10px;
+}
+@media (min-width: 1280px) {
+  .tweet_container {
+    width: 650px;
+    margin-top: 15px;
+  }
+}
+.tweet_content__container {
+  display: flex;
+  margin-top: 10px;
+  gap: 10px;
+  border-top: solid 1px var(--light-gray);
+  padding: 5px;
+}
+.img_container {
+  position: relative;
+  display: flex;
+  height: 50px;
+  width: 50px;
+}
+.img {
+  border-radius: 25%;
+}
+.file_drop_container {
+  position: absolute;
+  left: 70px;
+}
+@media (min-width: 1280px) {
+  .file_drop_container {
+    left: 200px;
+  }
+}
+.tweet_button {
+  margin-left: 20px;
+  cursor: pointer;
+}
+@media (min-width: 1280px) {
+  .tweet_button {
+    margin-left: 300px;
+  }
+}
+.tweet_options {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px;
+  cursor: pointer;
+}
+.spinner_container{
+  
+}
+.bottom_text {
+  cursor: pointer;
+}
+
+.pop_up_container {
+  background-color: var(--main-color);
+  border-radius: 10px;
+  padding: 10px;
+  width: 250px;
+  position: absolute;
+  top: 230px;
+  left: 120px;
+  border: solid 2px;
+}
+@media (min-width: 1280px) {
+  .pop_up_container {
+    margin-left: 60px;
+    top: 240px;
+    left: 250px;
+  }
+}
+.pop_up_options {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.option {
+  cursor: pointer;
+}

@@ -1,0 +1,27 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+    Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--light-gray);
+}
+:root {
+  --main-color: #ffffff;
+  --secondary-color: #4682b4;
+  --gray: #a0a0a0;
+  --light-gray: #f0f0f0;
+  --black: #000000;
+}

@@ -1,0 +1,19 @@
+.container {
+  margin-bottom: 10px;
+}
+@media (min-width: 1280px) {
+  .container {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    padding: 20px;
+  }
+}
+.card_container {
+  padding: 20px;
+}
+@media (min-width: 1280px) {
+  .card_container {
+    margin-right: 25px;
+  }
+}

@@ -1,0 +1,12 @@
+.container {
+  background-color: var(--light-gray);
+}
+.bottom_section_container {
+}
+@media (min-width: 1280px) {
+  .bottom_section_container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+}

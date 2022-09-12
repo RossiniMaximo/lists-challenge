@@ -1,0 +1,44 @@
+.container {
+  display: none;
+}
+@media (min-width: 1280px) {
+  .container {
+    display: block;
+    background: white;
+    border-radius: 10px;
+    width: 300px;
+    padding: 10px;
+    margin-top: 25px;
+    margin-left: 30px;
+  }
+}
+.trends_title {
+}
+@media (min-width: 1280px) {
+  .trends_title {
+    padding: 5px;
+    border-bottom: solid 1px var(--light-gray);
+  }
+}
+.trends_card {
+}
+@media (min-width: 1280px) {
+  .trends_card {
+    cursor: pointer;
+  }
+}
+.card_container {
+}
+@media (min-width: 1280px) {
+  .card_container {
+    margin: 10px 0;
+  }
+}
+.card_container:hover p {
+  background-color: var(--light-gray);
+  border-radius: 2px;
+}
+.trend_name {
+}
+.trend_popularity {
+}

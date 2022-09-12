@@ -1,0 +1,20 @@
+.container {
+  min-height: 500px;
+}
+@media (min-width: 1280px) {
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.upper_layout_content {
+}
+@media (min-width: 1280px) {
+  .upper_layout_content {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

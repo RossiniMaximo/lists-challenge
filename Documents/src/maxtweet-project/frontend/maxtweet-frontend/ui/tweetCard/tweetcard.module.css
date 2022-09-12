@@ -1,0 +1,122 @@
+.tweet_card_container {
+  background-color: var(--main-color);
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+}
+@media (min-width: 1280px) {
+  .tweet_card_container {
+    width: 800px;
+  }
+}
+.top_tweet_container {
+  display: flex;
+  gap: 15px;
+}
+
+.img_container {
+  height: 50px;
+  width: 50px;
+  position: relative;
+}
+.img {
+  border-radius: 25%;
+}
+.top_tweet_text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.delete_icon {
+  margin-left: 60px;
+  cursor: pointer;
+}
+@media (min-width: 1280px) {
+  .delete_icon {
+    margin-left: 450px;
+  }
+}
+.tweet_description {
+}
+@media (min-width: 1280px) {
+  .tweet_description p {
+    padding: 15px;
+  }
+}
+
+.bottom_img_container {
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+}
+.bottom_img_container_empty {
+  display: none;
+}
+.bottom_img {
+  border-radius: 3%;
+}
+.tweet_specifications {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+@media (min-width: 1280px) {
+  .tweet_specifications {
+    justify-content: end;
+    gap: 15px;
+    margin-right: 10px;
+  }
+}
+
+.tweet_interaction_container {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.tweet_interaction {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.interaction {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.interaction p {
+  cursor: pointer;
+}
+.interaction_comment__icon {
+}
+.interaction_comment__text {
+}
+
+.interaction_retweet__icon {
+}
+.interaction_retweet__text:hover {
+  color: green;
+}
+.interaction_retweet__text {
+}
+.interaction_like__icon {
+}
+.interaction_like__text:hover {
+  color: red;
+}
+.interaction_like__text {
+}
+.interaction_save__icon {
+}
+.interaction_save__text:hover {
+  color: var(--secondary-color);
+}
+.interaction_save__text {
+}
+
+.comment_tweet_container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15px;
+}

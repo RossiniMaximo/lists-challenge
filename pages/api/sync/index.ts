@@ -10,7 +10,9 @@ export default methods({
       .eachPage(
         async function page(records, fetchNextPage) {
           // This function (`page`) will get called for each page of records.
-
+          // To fetch the next page of records, call `fetchNextPage`.
+          // If there are more records, `page` will get called again.
+          // If there are no more records, `done` will get called
           const results = records.map((r) => {
             return {
               objectID: r.id,
@@ -18,11 +20,6 @@ export default methods({
             };
           });
           const saveInAlgolia = await productsIndex.saveObjects(results);
-          console.log("next page");
-
-          // To fetch the next page of records, call `fetchNextPage`.
-          // If there are more records, `page` will get called again.
-          // If there are no more records, `done` will get called.
           fetchNextPage();
         },
         function done(err) {

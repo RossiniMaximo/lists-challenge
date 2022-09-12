@@ -1,0 +1,19 @@
+.tweet_container {
+  margin-top: 20px;
+}
+@media (min-width: 1280px) {
+  .tweet_container {
+    margin-top: 40px;
+  }
+}
+.spinner_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+@media (min-width: 1280px) {
+  .spinner_container {
+  }
+}

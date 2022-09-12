@@ -1,0 +1,14 @@
+.searchBar_container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 30px;
+}
+@media (min-width: 1280px) {
+  .searchBar_container {
+    display: flex;
+    gap: 30px;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+  }
+}

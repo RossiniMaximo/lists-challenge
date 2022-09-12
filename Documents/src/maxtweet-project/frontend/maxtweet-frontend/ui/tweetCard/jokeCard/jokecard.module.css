@@ -1,0 +1,36 @@
+.main_container {
+}
+@media (min-width: 1280px) {
+  .main_container {
+    width: 300px;
+  }
+}
+.top_content__container {
+  display: flex;
+  padding: 5px;
+  gap: 10px;
+}
+.img_container {
+  position: relative;
+  height: 50px;
+  width: 50px;
+}
+.img {
+}
+.joke_title {
+}
+.joke_container {
+  padding: 10px;
+}
+.joke {
+  border: solid 2px;
+  border-radius: 25px;
+  padding: 10px;
+  background-color: lightblue;
+  color: white;
+}
+@media (min-width: 1280px) {
+  .joke {
+    padding: 20px;
+  }
+}

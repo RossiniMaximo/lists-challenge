@@ -1,0 +1,30 @@
+.container {
+  background-color: var(--secondary-color);
+  color: var(--main-color);
+  border-radius: 8px;
+  width: 120px;
+  height: 80px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+@media (min-width: 1280px) {
+  .container {
+    left: 200px;
+  }
+}
+
+.pick_file {
+}
+.submit_file {
+}
+.spinner_container {
+  position: relative;
+  top: 10px;
+}
+@media (min-width: 1280px) {
+  .spinner_container {
+  }
+}
